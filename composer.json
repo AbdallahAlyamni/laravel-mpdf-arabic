@@ -16,10 +16,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Mccarlosen\\LaravelMpdf\\LaravelMpdfServiceProvider"
+                "AbdallahAlyamni\\LaravelMpdfArabic\\LaravelMpdfServiceProvider"
             ],
             "aliases": {
-                "PDF": "Mccarlosen\\LaravelMpdf\\Facades\\LaravelMpdf"
+                "PDF": "AbdallahAlyamni\\LaravelMpdfArabic\\Facades\\LaravelMpdf"
             }
         }
     }
