@@ -74,6 +74,8 @@ class LaravelMpdf
         $this->mpdf->watermarkTextAlpha = $this->getConfig('watermark_text_alpha');
         // use active forms
         $this->mpdf->useActiveForms = $this->getConfig('use_active_forms');
+        // solve fetching images from https url
+        $this->mpdf->curlAllowUnsafeSslRequests = true;
     }
 
     protected function getConfig($key)
